@@ -3,6 +3,7 @@ body {
   min-height: 100vh;
   cursor: crosshair;
 }
+
 .bubble {
   position: absolute;
   border-radius: 300px;
@@ -20,9 +21,27 @@ body {
     filter: hue-rotate(720deg);
   }
 }
+
+@font-face {
+  font-family: "kdam";
+  src: url(./font/KdamThmorPro-Regular.ttf);
+}
+
 h3 {
-  font-size: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 7rem;
   text-align: center;
   margin-top: 20px;
-  color: rgba(128, 128, 128, 0.555);
+
+  font-family: "kdam";
+  width: 500px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 30px;
+  background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  ;
+
+
 }
